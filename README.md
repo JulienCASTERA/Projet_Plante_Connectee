@@ -1,0 +1,2 @@
+# Projet_Plante_Connectee
+Nous sommes l'entreprise Connected Flowers qui souhaite développer un objet connecté permettant à une personne sans connaissance particulière en botanique de faire pousser des plantes chez soi ou en extérieur. Connected Flowers vous fournit une base de données, que l’utilisateur peut étendre, qui contient initialement les spécifications d’environ 30 plantes de la région. 
