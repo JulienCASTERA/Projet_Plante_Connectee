@@ -1,12 +1,12 @@
 # Humidité optimale par catégorie de plante
 
-    * Catégorie :
-        * Cactus et plantes grasses
-            * Humidité très basse requise
-        * Fougères, plantes vertes
-            * Dans l'idéal, une humidité de 30 à 50%
-        * Plantes d'origine tropicale
-            * Une humidité de 50 à 75%
+* Catégorie :
+    * Cactus et plantes grasses
+        * Humidité très basse requise
+    * Fougères, plantes vertes
+        * Dans l'idéal, une humidité de 30 à 50%
+    * Plantes d'origine tropicale
+        * Une humidité de 50 à 75%
 
 De façon générale, une humidité relative de 50 à 60 % convient à la **majorité** des plantes d'intérieur.
 
