@@ -1,0 +1,47 @@
+body,html {
+    height: 100%;
+  }
+nav {
+    margin-bottom:150px;
+}
+.overlay {
+    background: #000;
+    opacity: .4;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 56px;
+    bottom: 0;
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.jumbotron {
+    background-color: #f8f9fa!important;
+}
+
+
+@media screen and (max-width:1020px)
+{
+    .overlay {
+        top:94px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .jumbotron {
+        margin-top:50px;
+    }
+    .overlay {
+        top:210px;
+    }
+}

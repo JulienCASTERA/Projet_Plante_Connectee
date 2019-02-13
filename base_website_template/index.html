@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Connected Flowers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+    $(function () {
+        $("[data-toggle=popover]")
+        .popover({html:true})
+})
+    </script>
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+
+            <img src="./images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="" />
+            Connected Flowers
+        </a>
+
+        <form class="form-inline">
+            <div class="col-5 form-group pull-left">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Identifiant" required autofocus>
+            </div>
+            <div class="col-4.5 form-group pull-left">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Mot de passe" required>
+            </div>
+            <div class="col-1 form-group pull-right">
+                <button type="button" class="btn btn-success btn-bg" id="signin-btn">Connexion</button>
+            </div>
+        </form>
+    </nav>
+    <div class="overlay inner cover"></div>
+
+
+    <div class="col-6 text-center justify-content-center align-self-center" style="margin-left: auto;margin-right: auto;">
+        <div class="jumbotron">
+            <h1 class="display-4">Donnez de la vie à vos plantes</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at nulla magna. Integer
+                sit amet justo maximus, consectetur neque in, maximus massa. Proin suscipit elementum metus, at semper
+                ipsum lobortis et. Aliquam erat volutpat. Aliquam elementum non nisi sit amet aliquam. Phasellus eu
+                maximus diam, ac congue enim. Morbi lacinia nulla urna, sit amet dapibus velit mattis faucibus.
+                Suspendisse mattis iaculis nulla vitae posuere. Sed id lectus laoreet, euismod purus sed, dignissim
+                est.</p>
+            <hr class="my-4">
+            <p>Phasellus eget molestie neque. Donec non urna faucibus, finibus metus vel, mattis magna. Morbi posuere
+                quam ut euismod ullamcorper. Fusce vestibulum neque vitae pulvinar congue. Nunc mollis magna quis ex
+                ultricies bibendum. Aliquam congue nibh sed laoreet consequat. Nulla ac luctus dolor. Aenean non erat
+                sit amet enim malesuada maximus id sed risus. Cras vel libero orci. Vivamus vitae dictum lorem, congue
+                consequat justo. Praesent id lacus id ex pretium volutpat quis et orci. Ut sit amet dictum est. Ut
+                lorem erat, tempor at metus ac, tempus bibendum urna.</p>
+                <button type="button" class="btn btn-lg btn-success" data-toggle="popover" title="A propos" data-content="Vous pouvez accéder à la rubrique <a href='#''>aide</a>">En savoir plus</button>
+            </div>
+        </div>
+
+
+
+</body>
+
+</html>
