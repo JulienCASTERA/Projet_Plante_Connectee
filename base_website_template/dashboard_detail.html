@@ -35,6 +35,7 @@
 
         <div id="page-content-wrapper">
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                    <a href="/dashboard.html" class="btn btn-dark" style="margin-left:2px;">Retour au tableau de bord</a>
                 <ul class="navbar-nav ml-auto mt-12 mt-lg-12">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Bienvenue, utilisateur <span class="sr-only">(current)</span></a>
@@ -51,56 +52,70 @@
             </nav>
             <div class="container-fluid" style="margin-top:-120px;">
                 <div class="card">
-                    <h5 class="card-header">Tableau de bord</h5>
+                    <h5 class="card-header">Plus d'informations</h5>
                     <div class="card-body">
-                        <h5 class="card-title">Vos plantes</h5>
+                        <h5 class="card-title">Votre _PLANTE_
+                        
+                        <a href="#" class="btn btn-danger float-right">Supprimer la plante</a>
+                        </h5>
+                        
                         <hr class="my-4">
-                        <div class="card-deck">
-                            <div class="card">
-                                <a href="#">
-                                    <img src="/images/plante.JPG" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Plante 1</h5>
-                                </a>
-                                <p class="card-text">Votre plante se porte bien.</p>
-                                <a href="dashboard_detail.html" class="btn btn-primary">Plus d'informations</a>
+
+                        <div class="container">
+                            <div class="row" style="">
+                                <div class="col-sm border-left">
+                                    <img src="/images/plante.JPG" class="card-img-top" alt="..." style="width:250px">
+                                </div>
+                                <div class="col-sm">
+                                    <p class="badge badge-primary text-wrap">Capteur d'humidité :</p><br />
+                                    Données recues :<br />
+                                    <p class="badge badge-primary text-wrap">Capteur de luminosité:</p><br />
+                                    Données recues :<br />
+                                    <p class="badge badge-primary text-wrap">Température ambiante</p><br />
+                                    Données recues :<br />
+                                </div>
+                                <div class="col-sm border-right">
+                                    <p class="badge badge-primary text-wrap">Informations sur la plante :</p><br />
+                                    <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Suspendisse ultricies convallis scelerisque. In finibus sem at eros efficitur,
+                                        quis feugiat urna consequat. Aenean volutpat nec massa eu aliquet. Nulla
+                                        elementum sapien velit, vitae congue tortor ornare quis. Cras sit amet varius
+                                        ligula, tempus tristique sapien. In rutrum turpis nec ultrices ullamcorper.
+                                        Pellentesque et lectus at ligula volutpat auctor. Pellentesque eu ultrices
+                                        eros, sit amet bibendum eros. Maecenas hendrerit libero non diam pellentesque,
+                                        quis sodales magna tristique. Aenean suscipit leo id porttitor luctus. Sed sit
+                                        amet odio nibh. Proin lobortis elit sit amet mattis egestas. Suspendisse
+                                        egestas pulvinar mauris nec egestas. Pellentesque porttitor accumsan arcu a
+                                        sollicitudin. Aliquam erat volutpat.</p>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Dernière mise à jour il y a 3 minutes</small>
-                            </div>
                         </div>
-                        <div class="card">
-                            <a href="#">
-                                <img src="/images/plante2.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Plante 2</h5>
-                            </a>
-                            <p class="card-text">Votre plante n'est pas assez chauffée.</p>
-                            <a href="dashboard_detail.html" class="btn btn-danger">Plus d'informations</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Dernière mise à jour il y a 3 minutes</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <a href="#">
-                            <img src="/images/plante3.JPG" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Plante 3</h5>
-                        </a>
-                        <p class="card-text">Votre plante manque d'eau.</p>
-                        <a href="dashboard_detail.html" class="btn btn-danger">Plus d'informations</a>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Dernière mise à jour il y a 3 minutes</small>
+
                     </div>
                 </div>
+
+                <div class="card" style="margin-top:2%">
+                    <h5 class="card-header">Conseils</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">S'occuper de sa plante</h5>
+                        <hr class="my-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse ultricies convallis scelerisque. In finibus sem at eros efficitur,
+                            quis feugiat urna consequat. Aenean volutpat nec massa eu aliquet. Nulla
+                            elementum sapien velit, vitae congue tortor ornare quis. Cras sit amet varius
+                            ligula, tempus tristique sapien. In rutrum turpis nec ultrices ullamcorper.
+                            Pellentesque et lectus at ligula volutpat auctor. Pellentesque eu ultrices
+                            eros, sit amet bibendum eros. Maecenas hendrerit libero non diam pellentesque,
+                            quis sodales magna tristique. Aenean suscipit leo id porttitor luctus. Sed sit
+                            amet odio nibh. Proin lobortis elit sit amet mattis egestas. Suspendisse
+                            egestas pulvinar mauris nec egestas. Pellentesque porttitor accumsan arcu a
+                            sollicitudin. Aliquam erat volutpat.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
-    </div>
-
-    </div>
 
     </div>
     <div class="clearfix"></div>
