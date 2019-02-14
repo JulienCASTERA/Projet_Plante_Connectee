@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Connected Flowers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="preloader"></div>
+    <div class="d-flex" id="wrapper">
+
+        <div class="bg-light border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading">
+                <img src="./images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="" />
+                <a href="#">Connected Flowers</a>
+            </div>
+            <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action bg-light">Tableau de bord</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Aide</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Ajouter une plante</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Support</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Deconnexion</a>
+            </div>
+        </div>
+
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <ul class="navbar-nav ml-auto mt-12 mt-lg-12">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Bienvenue, utilisateur <span class="sr-only">(current)</span></a>
+                    </li>
+                    <ul class="navbar-nav ml-auto nav-flex-icons">
+                        <li class="nav-item avatar">
+                            <a class="nav-link p-0" href="#">
+                                <img src="/images/user.svg" class="rounded-circle z-depth-0" alt="avatar image" height="35">
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+
+            </nav>
+            <div class="container-fluid" style="margin-top:-120px;">
+                <div class="card">
+                    <h5 class="card-header">Tableau de bord</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Vos plantes</h5>
+                        <hr class="my-4">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="/images/plante.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Plante 1</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Dernière mise à jour il y a 3 minutes</small>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="/images/plante.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Plante 2</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Dernière mise à jour il y a 3 minutes</small>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="/images/plante.JPG" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Plante 3</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Dernière mise à jour il y a 3 minutes</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="clearfix"></div>
+    <footer class="page-footer font-small teal pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h5 class="text-uppercase font-weight-bold">Mentions légales</h5>
+                    <p>En utilisant notre contenu, produits & services, vous acceptez notre Termes de Service et
+                        Politique de Confidentialité. L'information dans ce site web est basé sur des différentes
+                        librairies de plantes en ligne faits par tiers, ainsi que sur notre propre avis et sources.
+                        Reproduction totale ou partielle, sous quelque forme ou support que ce soit, sans autorisation
+                        écrite expresse de Connected Flowers est interdite.
+                    </p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-6 mb-md-0 mb-3">
+                    <h5 class="text-uppercase font-weight-bold text-right">A propos</h5>
+                    <p class="text-right">
+                        <a href="#">Guide pratique</a>
+                    </p>
+                    <p class="text-right">
+                        <a href="#">Qui sommes-nous ?</a>
+                        <a href="#">Aide (FAQS)</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-left py-3">
+            &copy 2019 - Connected Flowers. Tous droits reservés.
+        </div>
+    </footer>
+</body>
+
+
+
+</html>
