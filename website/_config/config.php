@@ -41,10 +41,4 @@ define("WEBSITE_FACEBOOK_DESCRIPTION", "");
 define("WEBSITE_FACEBOOK_URL", "");
 define("WEBSITE_FACEBOOK_IMAGE", "");
 
-// DataBase informations
-define("DATABASE_HOST", "localhost");
-define("DATABASE_NAME", "db_name");
-define("DATABASE_USER", "db_user");
-define("DATABASE_PASSWORD", "db_password");
-
 
