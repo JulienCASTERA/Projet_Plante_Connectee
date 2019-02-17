@@ -1,6 +1,15 @@
+* {margin:0;padding:0;}
 body,html {
     height: 100%;
-  }
+}
+.main{
+    position: relative;
+    background: #000;
+    background-image: url('../../images/header-bg.jpg') !important;
+    background-position: center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
 #body-row {
     margin-left:0;
     margin-right:0;
@@ -14,44 +23,33 @@ body,html {
 	height: 100%;
 	overflow: visible;
 	background: white			
-			url('../../images/loader.gif') 		
-			no-repeat center center; 
+		url('../../images/loader.gif') 		
+		no-repeat center center; 
 }
 nav {
-    margin-bottom:150px;
+    margin-bottom:1%;
+    height:56px;
 }
-.overlay {
-    display: inline-block;
-    background: #000;
-    opacity: .4;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 56px;
-    bottom: 146px;
-    background-image: url('../../images/header-bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
 .center {
-    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.jumbotron {
-    background-color: #f8f9fa!important;
-}
+.jumbotron {background-color: #f8f9fa!important;}
 footer {
+    position:absolute;
+    bottom:0;
+    padding-top:50px;
+    height:50px;
     background: #434c55;
     color:white;
 }
-footer a, a:hover {
-    color:white;
-}
+footer .row {background: #434c55;}
+footer a, a:hover {color:white;}
+
 .footer-copyright {
     padding-left:5px;
     background: #343a3f;
