@@ -1,11 +1,7 @@
 jQuery(function($){
-      $( window ).load(function() {
-        $(".preloader").fadeOut("slow");
-      });
+  function readyFn( jQuery ) {
+    $(".preloader").fadeOut("slow");
+  }
+
+$( window ).on("load", readyFn );
  });
-
-
- $(function () {
-  $("[data-toggle=popover]")
-  .popover({ html: true })
-  })

@@ -4,9 +4,9 @@
                 <a href="/home">Connected Flowers</a>
             </div>
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action bg-light">Tableau de bord</a>
+                <a href="/dashboard" class="list-group-item list-group-item-action bg-light">Tableau de bord</a>
                 <a href="/help" class="list-group-item list-group-item-action bg-light">Aide</a>
-                <a href="/dashboard?addplant=1" class="list-group-item list-group-item-action bg-light">Ajouter une plante</a>
+                <a href="/dashboard?addplant" class="list-group-item list-group-item-action bg-light">Ajouter une plante</a>
                 <a href="/contact" class="list-group-item list-group-item-action bg-light">Support</a>
                 <a href="/disconnect" class="list-group-item list-group-item-action bg-light">Deconnexion</a>
             </div>
