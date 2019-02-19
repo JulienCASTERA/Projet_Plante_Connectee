@@ -20,7 +20,7 @@ include('/controllers/login_controller.php');
     
     <?php include_once 'views/includes/login.php' ?>
 
-    <?php include_once 'views/includes/footer.php'?>
+    <?php include_once 'views/includes/footer.html'?>
 
 </body>
 </html>
