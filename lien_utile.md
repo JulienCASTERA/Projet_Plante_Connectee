@@ -5,4 +5,4 @@ Light sensor: https://circuitdigest.com/microcontroller-projects/arduino-light-s
 
 Termal sensor: https://www.instructables.com/id/Temperature-Sensor-With-Arduino-UNO/
 
-Humidity sensor: http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/
+Humidity sensor: DHT http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/
