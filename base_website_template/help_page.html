@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Connected Flowers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("[data-toggle=popover]")
+                .popover({ html: true })
+        })
+    </script>
+
+    <div class="preloader"></div>
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+
+            <img src="./images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="" />
+            Connected Flowers
+        </a>
+
+        <form class="form-inline">
+            <div class="col-5 form-group pull-left">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Identifiant"
+                    autocomplete="username" required autofocus>
+            </div>
+            <div class="col-4.5 form-group pull-left">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Mot de passe"
+                    autocomplete="current-password" required>
+            </div>
+            <div class="col-1 form-group pull-right">
+                <button type="button" class="btn btn-success btn-bg" id="signin-btn">Connexion</button>
+            </div>
+        </form>
+    </nav>
+    <div class="overlay inner cover"></div>
+    <div class="col-md-6" role="presentation">
+        <a class="_5dwo _5i10" aria-controls="u_0_0" aria-expanded="false" role="button" href="#">Quels sont les noms de Page autorisés sur Facebook&nbsp;? <span class="_5i03"></span></a>
+    </div>
+    <div class="clearfix"></div>
+    <!-- Footer -->
+    <footer class="page-footer font-small teal pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h5 class="text-uppercase font-weight-bold">Mentions légales</h5>
+                    <p>En utilisant notre contenu, produits & services, vous acceptez notre Termes de Service et
+                        Politique de Confidentialité. L'information dans ce site web est basé sur des différentes
+                        librairies de plantes en ligne faits par tiers, ainsi que sur notre propre avis et sources.
+                        Reproduction totale ou partielle, sous quelque forme ou support que ce soit, sans autorisation
+                        écrite expresse de Connected Flowers est interdite.
+                    </p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-6 mb-md-0 mb-3">
+                    <h5 class="text-uppercase font-weight-bold text-right">A propos</h5>
+                    <p class="text-right">
+                        <a href="#">Guide pratique</a>
+                    </p>
+                    <p class="text-right">
+                        <a href="#">Qui sommes-nous ?</a>
+                        <a href="#">Aide (FAQS)</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-left py-3">
+            &copy 2019 - Connected Flowers. Tous droits reservés.
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>
