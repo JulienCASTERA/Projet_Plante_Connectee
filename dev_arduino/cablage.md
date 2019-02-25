@@ -1,4 +1,4 @@
-| Arduino       |     photorésistor     |     DHT11      |  ENP8266 |
+| Arduino       |     photorésistor     |     DHT11      |  ESP8266 |
 | :------------ | :-------------:       | -------------: | :------: |
 | 5V            |     VCC               |     VCC        |          |
 | 3.3V          |                       |                |VIN/ENABLE|
