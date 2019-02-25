@@ -7,3 +7,5 @@
 | D7            |                       |    DATA        |          |
 | RX            |                       |                |   TX     |
 | TX            |                       |                |   RX     |
+
+![Image cablage](./images/cablage.PNG)
