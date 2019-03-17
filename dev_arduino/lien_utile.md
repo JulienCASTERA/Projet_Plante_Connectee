@@ -9,7 +9,7 @@ Module Wifi: ESP8266 https://www.instructables.com/id/Add-WiFi-to-Arduino-UNO/
 
 Compléments module WiFi : https://arduino-esp8266.readthedocs.io/en/latest/
 
-Résistances 1k Ohm : 
+Résistances 1k Ohm : https://www.amazon.fr/25x-R%C3%A9sistances-carbone-Ohms-Watts/dp/B016TPJYV0/ref=sr_1_5?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=r%C3%A9sistances+1k+ohm&qid=1552819712&s=gateway&sr=8-5-spell
 
 Résistances 10k Ohm : https://www.amazon.fr/20x-R%C3%A9sistances-m%C3%A9tal-%C2%BCW-59res145/dp/B074SXK8QH/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=r%C3%A9sistances+10k+ohm&qid=1552819823&s=gateway&sr=8-4-spell
 
