@@ -4,7 +4,7 @@
 | 3.3V          |                       |                |VIN/ENABLE|      |
 |GND            |      GND              | GND            |     GND  |  GND | 
 | A0            |      GND              |                |          |      |
-| A1            |      GND              |                |          | VOUT |
+| A1            |                       |                |          | VOUT |
 | D7            |                       |    DATA        |          |      | 
 | RX            |                       |                |   TX     |      |
 | TX            |                       |                |   RX     |      |
