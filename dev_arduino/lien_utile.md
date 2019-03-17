@@ -16,3 +16,5 @@ LM35 : https://www.amazon.fr/Doradus-pr%C3%83%C2%A9cision-capteur-temp%C3%83%C2%
 Photoresistance : https://www.amazon.fr/Sodial-20x-Photor%C3%A9sistances-50-100-kOhms/dp/B00HUHC9D2/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=81CJTIENIECA&keywords=photoresistance&qid=1552818387&s=gateway&sprefix=photores%2Caps%2C161&sr=8-2
 
 DHT11 : https://www.amazon.fr/SODIAL-Humidite-Numerique-Temperature-Arduino/dp/B00K67XRFC/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=DHT11+arduino&qid=1552818472&s=gateway&sr=8-3
+
+Carte arduino uno R3 : https://www.amazon.fr/Arduino-contr%C3%B4leur-ATmega16U2-ATMEGA328P-officielle-v%C3%A9ritable/dp/B077JMX1NP/ref=sr_1_8?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=arduino+uno&qid=1552818564&s=gateway&sr=8-8
