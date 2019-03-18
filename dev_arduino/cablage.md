@@ -2,16 +2,17 @@
 
 ## Tableau des broches :
 
-| Arduino       |     photorésistor     |     DHT11      |  ESP8266 | LM35 |
+| Arduino       |     photorésistor     |     humidity   |  ESP8266 | LM35 |
 | :------------ | :-------------:       | -------------: | :------: | :---:|
 | 5V            |     VCC               |     VCC        |          |  VCC |
 | 3.3V          |                       |                |VIN/ENABLE|      |
 |GND            |      GND              | GND            |     GND  |  GND | 
 | A0            |      GND              |                |          |      |
 | A1            |                       |                |          | VOUT |
-| D7            |                       |    DATA        |          |      | 
+| A2            |                       |    A0          |          |      | 
 | RX            |                       |                |   TX     |      |
 | TX            |                       |                |   RX     |      |
+|  inutile      |                       |    D0          |   RX     |      |
 
 ## Câblage des capteurs
 
