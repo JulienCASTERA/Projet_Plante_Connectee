@@ -12,7 +12,7 @@
 | A2            |                       |    A0          |          |      | 
 | RX            |                       |                |   TX     |      |
 | TX            |                       |                |   RX     |      |
-|  inutile      |                       |    D0          |   RX     |      |
+|  inutile      |                       |    D0          |          |      |
 
 ## Câblage des capteurs
 
