@@ -5,4 +5,6 @@ jQuery(function($){
  });
 
 
- 
+$('.devAid').click(()=>{
+  $('.textAid').slideToggle();
+});
