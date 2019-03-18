@@ -19,7 +19,7 @@ __LM35__ : https://www.amazon.fr/Doradus-pr%C3%83%C2%A9cision-capteur-temp%C3%83
 
 __Photoresistance__ : https://www.amazon.fr/Sodial-20x-Photor%C3%A9sistances-50-100-kOhms/dp/B00HUHC9D2/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=81CJTIENIECA&keywords=photoresistance&qid=1552818387&s=gateway&sprefix=photores%2Caps%2C161&sr=8-2
 
-__DHT11__ : https://www.amazon.fr/SODIAL-Humidite-Numerique-Temperature-Arduino/dp/B00K67XRFC/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=DHT11+arduino&qid=1552818472&s=gateway&sr=8-3
+Humidity : https://www.amazon.fr/SODIAL-Hygrometre-Humidite-Detection-Essayant/dp/B00K67Z76O/ref=pd_sim_107_2/257-7754043-4841909?_encoding=UTF8&pd_rd_i=B00K67Z76O&pd_rd_r=e4ab008f-4964-11e9-80f5-471b8392310f&pd_rd_w=UPSkm&pd_rd_wg=XyfZb&pf_rd_p=7e133c34-2a2a-4f4f-8372-6a26c70ca073&pf_rd_r=YX8XK633T22PY363M21B&psc=1&refRID=YX8XK633T22PY363M21B
 
 __Carte arduino uno R3__ : https://www.amazon.fr/Arduino-contr%C3%B4leur-ATmega16U2-ATMEGA328P-officielle-v%C3%A9ritable/dp/B077JMX1NP/ref=sr_1_8?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=arduino+uno&qid=1552818564&s=gateway&sr=8-8
 
