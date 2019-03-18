@@ -1,9 +1,7 @@
-#include <dht.h>
 #define LDR_PIN A0
 #define TEMP_PIN A1
-#define DHT11_PIN 7
+#define HUMI_PIN A2
 
-dht DHT;
 float temp_value;
 int ldr_value;
 int humi_value;
@@ -11,11 +9,10 @@ int humi_value;
 void setup() {
   pinMode(LDR_PIN, INPUT);
   pinMode(TEMP_PIN, INPUT);
-  pinMode(DHT11_PIN, INPUT);
+  pinMode(HUMI_PIN, INPUT);
   
   //inutile pour le programme final
   Serial.begin(9600);
-
 }
 
 void loop() {
@@ -27,8 +24,7 @@ void loop() {
   temp_value = temp_value * 0.48828125;
 
   //humidity
-  DHT.read11(DHT11_PIN);
-  humi_value = DHT.humidity;
+  humi_value = analogRead(HUMI_PIN);
 
   delay(3000);
   
@@ -41,7 +37,4 @@ void loop() {
 
   Serial.print("humidity (%) :");
   Serial.println(humi_value);
-  
-
-
 }
