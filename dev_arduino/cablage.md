@@ -20,4 +20,4 @@
 
 ## Câblage du module WiFi
 
-![Image cablage](./images/cablage_wifi.PNG)
+![Image cablage](./images/cablage_wifi.png)
