@@ -16,15 +16,15 @@ void setup() {
 }
 
 void loop() {
-  //Luminosity
+  //Luminosity (Lux)
   ldr_value = analogRead(LDR_PIN);
   ldr_value = ldr_value * 2.34;
   
-  //Température
+  //Température (°C)
   temp_value = analogRead(TEMP_PIN);
   temp_value = temp_value * 0.48828125;
 
-  //humidity
+  //humidity (%)
   humi_value = analogRead(HUMI_PIN) /10.23;
   humi_value = humi_value / 10.23;
 
