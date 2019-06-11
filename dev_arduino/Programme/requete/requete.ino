@@ -1,7 +1,7 @@
 
 #include <ESP8266WiFi.h>
-const char* ssid     = "FreeBox-Marc";      // SSID
-const char* password = "187g356f02";      // Password
+const char* ssid     = "HUAWEI P10";      // SSID
+const char* password = "mescouilles";      // Password
 const char* host = "146.88.237.32";  // IP serveur - Server IP
 const int   port = 443;            // Port serveur - Server Port
 const int   watchdog = 5000;        // Fréquence du watchdog - Watchdog frequency
