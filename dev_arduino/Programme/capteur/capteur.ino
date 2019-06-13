@@ -1,10 +1,10 @@
-#define LDR_PIN A0
-#define TEMP_PIN A1
+#define LDR_PIN A3
+#define TEMP_PIN A4
 #define HUMI_PIN A2
 
 float temp_value;
 int ldr_value;
-int humi_value;
+float humi_value;
 
 void setup() {
   pinMode(LDR_PIN, INPUT);
@@ -16,17 +16,19 @@ void setup() {
 }
 
 void loop() {
-  //Luminosity
+  //Luminosity (Lux)
   ldr_value = analogRead(LDR_PIN);
+  ldr_value = ldr_value * 2.34;
   
-  //Température
+  //Température (°C)
   temp_value = analogRead(TEMP_PIN);
   temp_value = temp_value * 0.48828125;
 
-  //humidity
-  humi_value = analogRead(HUMI_PIN);
+  //humidity (%)
+  humi_value = analogRead(HUMI_PIN) /10.23;
+  humi_value = humi_value / 10.23;
 
-  delay(3000);
+  delay(2000);
   
   //inutile pour le programme final
   Serial.print("Luminosité :");

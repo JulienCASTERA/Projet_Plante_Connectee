@@ -127,5 +127,5 @@ footer a, a:hover {
 @media (max-width: 1366px) {
     .avatar {
       visibility: hidden;
+    }
 }
-
