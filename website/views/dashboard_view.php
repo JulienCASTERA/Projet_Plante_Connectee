@@ -181,13 +181,20 @@
             <div class="tab">
                 <p>
                     Besoins en température:
-                    <select class="form-control" id="plant" name="planttemp">
-                        <option disabled selected value> -- Choisissez -- </option>
-                        <?php foreach ($allTemps as $index => $temp): ?>
-                        <option value="<?=$temp['id_temperature']?>"> <?=$temp['temp_min']?>° - <?=$temp['temp_max'] ?>°
-                        </option>
-                        <?php endforeach?>
-                    </select></p>
+                    <div class="input-group flex-nowrap" id="plant" name="planttempmin">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="addon-wrapping"><i class="fas fa-temperature-low"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Température minimale (°C)">
+                    </div>
+                    <div class="input-group flex-nowrap" id="plant" name="planttempmax">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="addon-wrapping"><i class="fas fa-temperature-high"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Température minimale (°C)">
+                    </div>
+
+                    </p>
                 <p>
                     Catégorie:
                     <select class="form-control" id="plant" name="plantcat">
